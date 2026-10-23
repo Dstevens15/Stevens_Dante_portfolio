@@ -3231,3 +3231,17 @@ input, select, textarea {
         display: block;
     }
 }
+#header .site-title strong,
+#header .site-title span {
+    display: block;
+}
+
+#header .site-title span {
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 736px) {
+    #header .site-title {
+        font-size: 16px;
+    }
+}

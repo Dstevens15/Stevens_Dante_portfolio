@@ -3225,3 +3225,9 @@ input, select, textarea {
     height: 270px;
     object-fit: cover;
 }
+
+@media screen and (max-width: 736px) {
+    #header h1 span {
+        display: block;
+    }
+}
